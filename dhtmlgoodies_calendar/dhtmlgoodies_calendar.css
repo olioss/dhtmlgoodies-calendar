@@ -57,7 +57,7 @@
 	position:relative;
 }
 
-#calendarDiv .topBar{
+#calendarDiv .calendarTopBar{
 	height:16px;
 	padding:2px;
 	background-color: #317082;
@@ -128,10 +128,10 @@
 	cursor:pointer;
 }
 
-#calendarDiv .topBar img{
+#calendarDiv .calendarTopBar img{
 	cursor:pointer;
 }
-#calendarDiv .topBar div{
+#calendarDiv .calendarTopBar div{
 	float:left;
 	margin-right:1px;
 }
