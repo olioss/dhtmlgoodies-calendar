@@ -1,0 +1,10 @@
+{
+  "name": "dhtml-calendar",
+  "version": "0.0.1",
+  "authors": [
+    ""
+  ],
+  "description": "dhtmlgoodies calendar",
+  "main": "dhtmlgoodies_calendar/dhtmlgoodies_calendar.js",
+  "private": true
+}
