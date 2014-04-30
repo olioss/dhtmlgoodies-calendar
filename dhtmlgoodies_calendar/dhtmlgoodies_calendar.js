@@ -162,7 +162,15 @@ switch(languageCode){
 		var dayArray = ['Pon','&#218;t','St','&#268;t','P&#225;','So','Ne'];
 		var weekString = 't&#253;den';
 		var todayString = '';
-		break;	
+		break;
+  case "th":	/* Thai*/
+    monthArray = ['มกราคม','กุมภาพันธ์','มีนาคม','เมษายน','พฤษภาคม','มิถุนายน','กรกฎาคม','สิงหาคม','กันยายน','ตุลาคม','พฤศจิกายน','ธันวาคม'];
+    monthArrayShort = ['ม.ค.','ก.พ.','มี.ค.','เม.ษ.','พ.ค.','มิ.ย.','ก.ค.','ส.ค.','ก.ย.','ต.ค.','พ.ย.','ธ.ค.'];
+    dayArray = ['จ','อ','พ','พฤ','ศ','ส','อา'];
+    weekString = 'สัปดาห์ที่';
+    todayString = '';
+    break;
+
 }
 
 if (weekStartsOnSunday) {
